@@ -1,0 +1,22 @@
+{
+  "name": "junit",
+  "version": "0.0.0",
+  "description": "A JUnit test runner for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -t 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fum36205/node-junit.git"
+  },
+  "author": "Markus Fuchs",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "commandline-utils": "0.0.1"
+  },
+  "devDependencies": {
+    "should": "~1.2.1"
+  }
+}

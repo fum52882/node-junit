@@ -1,0 +1,1 @@
+module.exports.JUnitTest = require("./lib/JUnitTest");
